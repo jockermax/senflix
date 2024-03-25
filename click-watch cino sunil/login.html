@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+    <title>Login page</title>
+</head>
+<body>
+    <img id="logo" src="Logo.png" >
+    <form>
+        <div class="align">
+        <table>
+            <tr>
+                <td class="d">Sign In<br><br></td>
+            </tr>
+            <tr>
+                <td class="a"><input class="input" type="text" name="username" id="username" placeholder=" Email or phone number"><br><br></td>
+            </tr>
+            <tr>
+                <td class="a"><input class="input" type="password" name="password" id="password" placeholder="Password"><br><br></td>
+            </tr>
+            <tr>
+                <td class="a"><button  onclick = "validate()" class="signin">Sign In</button></td>
+            </tr>
+            <tr>
+                <td class="e"><input type="checkbox">Remember me</td>
+                <td class="e">Need Help?</td>
+            </tr>
+            <tr class="b"></tr>
+            <tr>
+                <td class="e"><img class="g" src="g.jpg"> <span >Login with Google</span></td>
+            </tr>
+            <tr><td> </td></tr><tr></tr>
+            <tr>
+                <td><span class="f">New to Click-Watch?</span> <span id="signup">Sign up now</span></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr class="h">
+                <td class="u">This page is protected by Google reCAPTCHA to<br> ensure you're not a bot. <span id="p">Learn more.</td>
+            </tr>
+        </table>
+        </div>
+    </form>
+<script>
+    function validate()
+    {
+        var username=document.getElementById("username").value;
+        var password=document.getElementById("password").value;
+        if(username == "" || password == ""){
+            alert("usersnaUe or Password cannot be empty")
+        }
+        if(username=="cino sunil" && password=="admin123")
+        {
+            alert("Login succesfully");
+            window.open("first page.html");
+            return false;
+            
+        }
+        else
+        {
+            alert("Invalid User name or Password");
+        }
+    }
+</script>
+</body>
+</html>

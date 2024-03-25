@@ -1,0 +1,102 @@
+body{
+    background-image: url("171.jpg");
+    background-color:grey;
+}
+
+table{
+    background-color: black;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    opacity: 0.9;
+    margin-left:36%;
+    margin-right: auto;
+    box-shadow: 0px 30px 30px 10px black;
+    float: inherit;
+}
+.signin{
+    padding-left: 63px;
+    padding-right: 63px;
+    background-color: rgb(22, 164, 6);
+    color: rgb(5, 2, 2);
+    font-weight: bolder;
+    height: 35px;
+    width: 260px;
+    font-size:large;
+    font-weight:bolder;
+    cursor: pointer;
+    font-family: 'Jura', sans-serif;
+    border-radius: 2em;
+
+}
+
+.signin:hover{
+transform: scale(1.05);
+}
+
+.input{
+    background-color: rgb(45, 39, 39);
+    color:beige;
+    height: 30px;
+    width: 250px;
+    font-size:small;
+    border-radius: 2em;
+}
+
+.align{
+    padding-top: 5%;
+}
+
+.a{
+    padding-left: 70px;
+    height: 20px;
+}
+
+.b{
+    height: 130px;
+}
+
+img{
+    width: 20px;
+}
+
+.d{
+    font-size:xx-large;
+    font-family: 'Jura', sans-serif;
+}
+
+.e{
+    font-size:14px;
+    color: rgb(124, 139, 155);
+}
+
+.f{
+    font-size:15px;
+    color: rgb(124, 139, 155);
+}
+
+#logo{
+    width: 160px;
+    float: left;
+}
+
+.h{
+    height: 70px;
+}
+
+#p{
+    color: rgb(34, 92, 253);
+    cursor: pointer;
+}
+
+.u{
+    font-size:11px;
+    color: rgb(80, 92, 104);
+}
+
+#signup{
+    cursor: pointer;
+}
+
